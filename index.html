@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>portfolio</title>
+</head>
+<body>
+    <header class="header-container container">
+        <div>
+            <a class="logo__link" href="/dimasv6s-JSFEPRESCHOOL/portfolio/"></a>
+        </div>
+        <nav class="header__nav">
+            <ul class="menu">
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#video" class="nav-link">Video</a></li>
+                <li><a href="#price" class="nav-link">Price</a></li>
+                <li><a href="#contacts" class="nav-link">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="swich-lang">
+            <ul class="menu">
+                <li class="swich-lang__item"><a href="#" class="nav-link activ">en</a></li>
+                <li class="swich-lang__item"><a href="#" class="nav-link">ru</a></li>
+            </ul>
+        </div>
+        <div class="mobile-menu">
+            <div class="hamburger" id="hamburger" data-action="open">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+          <div class="mobile__wrapper">
+                <div class="mobile__close" data-action="close"></div>
+                <div class="mobile__navigation">
+                    <ul class="menu column">
+                        <li data-action="close"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li data-action="close"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li data-action="close"><a href="#video" class="nav-link">Video</a></li>
+                        <li data-action="close"><a href="#price" class="nav-link">Price</a></li>
+                        <li data-action="close"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="hero-container">
+            <div class="hero">
+                <h1 class="section-title-name">Alexa Rise</h1>
+                <p class="hero__text">Save sincere emotions, romantic feelings and happy moments of life together with
+                    professional photographer Alexa Rise</p>
+                <button class="button-1">Hire me</button>
+            </div>
+        </section>
+        <section class="section section-skills" id="skills">
+            <div class="section-title">
+                <h2 class="section-title-h2">Skills</h2>
+            </div>
+            <div class="skill-items">
+                <div class="skill-item">
+                    <h3 class="skill-title">Digital photography</h3>
+                    <p class="skill-text">High-quality photos in the studio and on the nature</p>
+                </div>
+                <div class="skill-item">
+                    <h3 class="skill-title">Video shooting</h3>
+                    <p class="skill-text">Capture your moments so that they always stay with you</p>
+                </div>
+                <div class="skill-item">
+                    <h3 class="skill-title">Retouch</h3>
+                    <p class="skill-text">I strive to make photography surpass reality</p>
+                </div>
+                <div class="skill-item">
+                    <h3 class="skill-title">Audio</h3>
+                    <p class="skill-text">Professional sounds recording for video, advertising, portfolio</p>
+                </div>
+            </div>
+        </section>
+        <section class="section section-portfolio" id="portfolio">
+            <div class="section-title">
+                <h2 class="section-title-h2">Portfolio</h2>
+            </div>
+            <div class="btn-portfolio-div">
+                <div>
+                    <button class="btn-portfolio">Winter</button>
+                    <button class="btn-portfolio">Spring</button>
+                </div>
+                <div>
+                    <button class="btn-portfolio">Summer</button>
+                    <button class="btn btn-portfolio-autumn">Autumn</button>
+                </div>              
+            </div>
+            <div class="portfolio-img">
+                <div class="photo">
+                    <img src="./assets/img/portfolio-img.png" alt="portfolio image">
+                </div>
+                <div class="photo">
+                    <img src="./assets/img/portfolio-img-1.png" alt="portfolio image">
+                </div>
+                <div class="photo">
+                    <img src="./assets/img/portfolio-img-2.png" alt="portfolio image">
+                </div>
+                <div class="photo">
+                    <img src="./assets/img/portfolio-img-3.png" alt="portfolio image">
+                </div>
+                <div class="photo">
+                    <img src="./assets/img/portfolio-img-4.png" alt="portfolio image">
+                </div>
+                <div class="photo">
+                    <img src="./assets/img/portfolio-img-5.png" alt="portfolio image">
+                </div>
+            </div>
+        </section>
+        <section class="section section-video" id="video">
+            <div class="section-title">
+                <h2 class="section-title-h2">Video</h2>
+            </div>
+            <div class="video-player">
+                <div class="video-view">
+                    <img src="./assets/img/video-player.jpg" alt="video">
+                </div>
+                <button class="button-video" type="submit"></button>
+            </div>
+        </section>
+        <section class="section section-price" id="price">
+            <div class="section-title">
+                <h2 class="section-title-h2">Price</h2>
+            </div>
+            <div class="price">
+                <div class="price__block">
+                    <h3 class="price__title">Standart</h3>
+                    <p class="price__cost">500$</p>
+                    <ul class="price__list">
+                        <li>One location</li>
+                        <li>120 photos in color</li>
+                        <li>12 photos in retouch</li>
+                        <li>Readiness 2-3 weeks</li>
+                        <li>Make up, visage</li>
+                    </ul>
+                    <button class="button-1">Order shooting</button>
+                </div>
+                <div class="price__block">
+                    <h3 class="price__title">Premium</h3>
+                    <p class="price__cost">700$</p>
+                    <ul class="price__list">
+                        <li>One or two location</li>
+                        <li>200 photos in color</li>
+                        <li>20 photos in retouch</li>
+                        <li>Readiness 1-2 weeks</li>
+                        <li>Make up, visage</li>
+                    </ul>
+                    <button class="button-1">Order shooting</button>
+                </div>
+                <div class="price__block">
+                    <h3 class="price__title">Gold</h3>
+                    <p class="price__cost">1000$</p>
+                    <ul class="price__list">
+                        <li>Three location or more</li>
+                        <li>300 photos in color</li>
+                        <li>50 photos in retouch</li>
+                        <li>Readiness 1 week</li>
+                        <li>Make up, visage, hairstyle</li>
+                    </ul>
+                    <button class="button-1">Order shooting</button>
+                </div>
+            </div>
+        </section>
+        <section class="section-contacts" id="contacts">
+            <form class="section__form" action="/" method="post">
+                <h2 class="contacts-title">Contact me</h2>
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <input type="tel" name="phone" id="phone" placeholder="Phone">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <button class="button-1">Send message</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer container">
+        <a class="link" href="https://github.com/Dimasv6s">© 2022 github</a>
+        <a class="link" href="https://rs.school/js-stage0/">Rolling Scopes School</a>
+        <ul class="social__list list">
+            <li class="social__item">
+                <a class="link social__link" href="/dimasv6s-JSFEPRESCHOOL/portfolio/">
+                    <svg class="icon icon--social">
+                        <use xlink:href="./assets/svg/sprite.svg#inst"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social__item">
+                <a class="link social__link" href="/dimasv6s-JSFEPRESCHOOL/portfolio/">
+                    <svg class="icon icon--social">
+                        <use xlink:href="./assets/svg/sprite.svg#tw"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social__item">
+                <a class="link social__link" href="/dimasv6s-JSFEPRESCHOOL/portfolio/">
+                    <svg class="icon icon--social">
+                        <use xlink:href="./assets/svg/sprite.svg#fb"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social__item">
+                <a class="link social__link" href="/dimasv6s-JSFEPRESCHOOL/portfolio/">
+                    <svg class="icon icon--social">
+                        <use xlink:href="./assets/svg/sprite.svg#pinterest"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/menu.js"></script>
+</body>
+</html>
